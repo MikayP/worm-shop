@@ -42,7 +42,7 @@
   endunless
 -%}
 
-<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+<div  class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   <div class="multirow__inner page-width">
     {%- for block in section.blocks -%}
       <div
@@ -313,6 +313,44 @@
       ],
       "default": "left",
       "label": "t:sections.multirow.settings.mobile_content_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "aos_row",
+      "options": [
+        { "value": "fade",
+         "label": "t:sections.multirow.settings.aos_row.options__1.label" 
+        },
+        { "value": "fade-up",
+         "label": "t:sections.multirow.settings.aos_row.options__2.label"
+        },
+        { "value": "fade-down",
+         "label": "t:sections.multirow.settings.aos_row.options__3.label"
+        },
+        { "value": "fade-left",
+         "label": "t:sections.multirow.settings.aos_row.options__4.label"
+        },
+        { "value": "fade-right",
+         "label": "t:sections.multirow.settings.aos_row.options__5.label"
+        },
+        { "value": "fade-up-right",
+         "label": "t:sections.multirow.settings.aos_row.options__6.label"
+        },
+        { "value": "fade-up-left",
+         "label": "t:sections.multirow.settings.aos_row.options__7.label"
+        },
+        { "value": "fade-down-right",
+         "label": "t:sections.multirow.settings.aos_row.options__8.label"
+        },
+        { "value": "fade-down-left",
+         "label": "t:sections.multirow.settings.aos_row.options__9.label"
+        },
+        { "value": "none",
+         "label": "t:sections.multirow.settings.aos_row.options__10.label"
+        }
+      ],
+      "default": "none",
+      "label": "t:sections.multirow.settings.aos_row.label"
     },
     {
       "type": "header",
