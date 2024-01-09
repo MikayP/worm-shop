@@ -1583,6 +1583,39 @@
           },
           "label": "Mobile content alignment"
         },
+        "aos_row": {
+          "options__1": {
+            "label": "Fade"
+          },
+          "options__2": {
+            "label": "Fade Up"
+          },
+          "options__3": {
+            "label": "Fade Down"
+          },
+          "options__4": {
+            "label": "Fade Left"
+          },
+          "options__5": {
+            "label": "Fade Right"
+          },
+          "options__6": {
+            "label": "Fade Up Right"
+          },
+          "options__7": {
+            "label": "Fade Up Left"
+          },
+          "options__8": {
+            "label": "Fade Down Right"
+          },
+          "options__9": {
+            "label": "Fade Down Left"
+          }, 
+          "options__10": {
+            "label": "None"
+          },
+          "label": "Animation on Scroll"
+        },
         "header_mobile": {
           "content": "Mobile Layout"
         }
